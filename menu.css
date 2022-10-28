@@ -1,0 +1,238 @@
+
+body{
+    top:0;
+    left:0;
+    padding:0;
+    margin:0;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100vw;
+}
+
+#fleche-retour{
+    font-size:large;
+   position: absolute;
+   top: 34px;
+   left: 25px;
+   font-weight: bold;
+   font-size: x-large;
+   color: black;
+}
+
+.header-picture{
+    background-image: url(./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    height: 250px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-picture-louis{
+    background-image: url(./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    height: 250px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-picture-stil{
+    background-image: url(./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    height: 250px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.header-picture-jay{
+    background-image: url(./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    height: 250px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.choix-menu{
+    height: auto;
+    width: 100%;
+    background-color:whitesmoke;
+    margin-top: -30px;
+    border-radius: 40px 40px 0  0;  
+}
+
+.header-menu{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+
+.categories{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.titre-souligne h3{
+    padding-left: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+}
+
+.titre-souligne{
+    align-self: start;
+    font-weight: 400;
+    
+}
+
+.categories h3{
+    padding-left: 30px;
+    text-transform: uppercase;
+    align-self: start;
+    font-weight: 200;
+    margin-bottom: 0%;
+
+}
+.entree .logo-vert{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    
+}
+
+.entree{
+    position: relative;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+    border-radius: 18px;
+    width: 92%;
+    margin-bottom: 20px;
+    height: 75px;
+    box-shadow: 2px 1px 8px -3px lightgray; 
+   
+}
+
+
+
+.entree:hover{
+   transform: scale(1.02);
+   cursor:pointer;
+}
+
+.entree h4{
+    padding-left: 10px;
+    padding-top: 20px;
+    text-overflow: ellipsis; 
+}
+
+.entree .paragraphe-prix{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -15px;
+    height: 100%;
+    width: 80%;
+    text-overflow:ellipsis!important;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.prix{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end;
+   width: 20%;
+   height: 48px;
+   padding-right: 20px;
+   font-weight: bold;
+}
+
+.paragraphe-prix p{
+   margin: 0%;
+   padding-left: 10px;
+   padding-bottom: 20px;
+   text-overflow: ellipsis;
+}
+
+.boutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    background-image:linear-gradient(to top,#9356DC,#FF79DA );
+    font-size:1.2rem;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 8px -3px black; 
+    transition: all 200ms;
+    margin-bottom: 80px;
+}
+
+button:hover{
+    transform:scale(1.03) ;
+    background-image:linear-gradient(to ,#9356DC,#FF79DA );
+}
+
+#coeur-vide{
+    position: absolute;
+    color: black;
+    width: 24px;
+    right: 20px;
+    margin-top: 23px;
+   }
+   
+#coeur-plein{
+   position: absolute;
+   right: 20px;
+   width: 24px;
+   margin-top: 23px;
+   opacity: 0;
+   }
+   
+#coeur-plein:hover{
+    transform: scale(1.02);
+    background: linear-gradient(to top,#9356DC,#FF79DA );
+    -webkit-background-clip: text;
+    opacity: 1;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+   }
+    
+   /*Animation*/
+   
