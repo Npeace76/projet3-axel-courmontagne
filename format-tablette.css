@@ -202,7 +202,7 @@ header{
     padding-left: 10px;
     margin-top: -15px;
     height: 100%;
-    text-overflow: clip;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     
