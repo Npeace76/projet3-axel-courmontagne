@@ -17,7 +17,7 @@ header{
 }
 
 #fleche-retour{
-    font-size:large;
+   font-size:large;
    position: absolute;
    top: 34px;
    left: 25px;
@@ -74,9 +74,7 @@ header{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 25px;
-    padding-top: 10px;
+    padding: 20px 25px 10px;
 }
 
 .categories{
@@ -123,7 +121,6 @@ header{
     margin-bottom: 20px;
     height: 75px;
     box-shadow: 2px 1px 8px -3px lightgray;
-    overflow: hidden;
 }
 
 .entree:hover{
@@ -132,8 +129,7 @@ header{
 }
 
 .entree h4{
-    padding-left: 10px;
-    padding-top: 20px;
+    padding: 20px 10px 0;
     width: 100%;
     overflow-x: clip;
     text-overflow: ellipsis; 
@@ -144,8 +140,7 @@ header{
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0px 10px 10px;
     margin-top: -15px;
     height: 100%;
     width: 80%;
@@ -167,11 +162,10 @@ header{
 
 .paragraphe-prix p{
    margin: 0%;
-   padding-left: 10px;
-   padding-bottom: 20px;
+   padding: 0 10px 20px;
    width: 100%;
-    overflow-x: clip;
-    text-overflow: ellipsis; 
+   overflow-x: clip;
+   text-overflow: ellipsis; 
 }
    
 .boutton{

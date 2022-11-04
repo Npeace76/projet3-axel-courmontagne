@@ -134,8 +134,8 @@
 
     .resto h2 {
         padding-left: 1rem;
-        margin-top: 100px;
         padding-top: 50px;
+        margin-top: 100px;
         margin-bottom: 30px;
     }
 
@@ -157,7 +157,6 @@
     }
 
     .gout img{
-        height: min-content;
         width: 100%;
         border-radius: 1rem 1rem 0 0;
         height: 180px;
@@ -190,16 +189,15 @@
 
     .gout h3{
         margin-top: 0%;
-        padding-left: 15px;
-        padding-top: 15px;
+        padding: 15px 15px 0 ;
         margin-bottom: 0%;  
         text-decoration: none;
     }
 
     .gout span{
-        padding-left: 14px;
+        padding: 5px 14px 0;
         margin-bottom: 4%; 
-        padding-top: 5px;
+       
     }
 
     /*logo-coeur*/

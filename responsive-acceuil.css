@@ -187,14 +187,6 @@
         object-fit: cover;
     }
 
-    .rectangle-vert{
-        background-color: #99e2d0;
-        color: #14881a;
-        padding: 0.5rem;
-        border-radius: 0.125rem;
-        position: absolute;
-        right: 15px;
-    }
 
     .rectangle-vert strong{
         margin-left: -5px;
