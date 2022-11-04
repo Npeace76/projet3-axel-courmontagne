@@ -21,7 +21,6 @@
         font-family: "Roboto"; 
     }
 
-
     main .localisation{
         background-color: rgb(233, 233, 233);
         text-align: center;
@@ -109,13 +108,11 @@
         transition: all 200ms;
         position: relative;
         cursor: pointer; 
-        
     }
 
     .fonction li:hover{
         transform: scale(1.02);
         background-color: #f5edff;
-        
     }
 
     .fonction li:hover .chiffre{
@@ -133,7 +130,6 @@
 
     .resto{
         background-color:whitesmoke
-
     }
 
     .resto h2 {
@@ -177,6 +173,7 @@
         right: 30px;
         margin-top: 15px; 
     }
+
     .rectangle-vert-2{
         background-color: #99e2d0;
         color: #14881a;
@@ -214,7 +211,7 @@
         margin-top: -50px; 
     }
 
-    #coeur-vide{
+    .coeur-vide{
         position: relative;
         margin-bottom: 25px;
         color: black;
@@ -222,7 +219,7 @@
         right: -20px;
     }
 
-    #coeur-plein{
+    .coeur-plein{
         position: relative;
         margin-bottom: 25px;
         width: 24px;
@@ -230,7 +227,7 @@
         opacity: 0;
     }
 
-    .note-coeur #coeur-plein:hover {
+    .note-coeur .coeur-plein:hover {
         transform: scale(1.02);
         background: linear-gradient(to top,#9356DC,#FF79DA );
         -webkit-background-clip: text;
@@ -259,9 +256,9 @@
     /*ANIMATION*/
 
     .contenaire-animation{
-    display: flex;
-    width: 5rem;
-    justify-content: space-between;
+        display: flex;
+        width: 5rem;
+        justify-content: space-between;
     }
 
     .animation-un{
@@ -272,6 +269,7 @@
         animation: jump 1s;
         animation-iteration-count: 1
     }
+
     .animation-deux{
         background-color: #ff79da;
         height: 1rem;

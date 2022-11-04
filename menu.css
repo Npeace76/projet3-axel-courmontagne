@@ -4,8 +4,8 @@ body{
     left:0;
     padding:0;
     margin:0;
-
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -51,7 +51,6 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .header-picture-jay{
@@ -62,6 +61,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .choix-menu{
     height: auto;
     width: 100%;
@@ -79,26 +79,21 @@ header{
     padding-top: 10px;
 }
 
-
 .categories{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
-
 
 .titre-souligne h3{
     padding-left: 28px;
     text-transform: uppercase;
     margin-bottom: 5px;
-    
 }
 
 .titre-souligne{
     align-self: start;
     font-weight: 400;
-    
 }
 
 .categories h3{
@@ -107,15 +102,14 @@ header{
     align-self: start;
     font-weight: 200;
     margin-bottom: 0%;
-
 }
+
 .entree .logo-vert{
     position: absolute;
     right: 0;
     top: 0;
     height: 100%;
     width: 20%;
-    
 }
 
 .entree{
@@ -130,10 +124,7 @@ header{
     height: 75px;
     box-shadow: 2px 1px 8px -3px lightgray;
     overflow: hidden;
-   
 }
-
-
 
 .entree:hover{
    transform: scale(1.02);
@@ -158,10 +149,9 @@ header{
     margin-top: -15px;
     height: 100%;
     width: 80%;
-    text-overflow:ellipsis!important;
+    text-overflow:ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-    
+    white-space: nowrap;    
 }
 
 .prix{
@@ -184,7 +174,6 @@ header{
     text-overflow: ellipsis; 
 }
    
-
 .boutton{
     display: flex;
     justify-content: center;
@@ -210,26 +199,28 @@ button{
 
 button:hover{
     transform:scale(1.03) ;
-    background-image:linear-gradient(to ,#9356DC,#FF79DA );
+    background-image:linear-gradient(to top,#9356DC,#FF79DA);
 }
 
-#coeur-vide{
+/*coeur*/
+
+.coeur-vide{
     position: absolute;
     color: black;
     width: 24px;
     right: 20px;
     margin-top: 23px;
-   }
+}
    
-#coeur-plein{
+.coeur-plein{
    position: absolute;
    right: 20px;
    width: 24px;
    margin-top: 23px;
    opacity: 0;
-   }
+}
    
-#coeur-plein:hover{
+.coeur-plein:hover{
     transform: scale(1.02);
     background: linear-gradient(to top,#9356DC,#FF79DA );
     -webkit-background-clip: text;
@@ -238,7 +229,7 @@ button:hover{
     color: transparent;
     cursor: pointer;
     transition: all .5s ease-in-out;
-   }
+}
     
-   /*Animation*/
+   
    

@@ -2,39 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
 *{
-    text-decoration: none!important;
+  text-decoration: none;
 }
 
 body{
-    font-family: "Roboto";   
+  font-family: "Roboto";   
 }
 
-
 h1{
-    font-family:"Shrikhand", cursive; 
+  font-family:"Shrikhand", cursive; 
 }
 
 i{
-    font-size: x-large;
+  font-size: x-large;
 }
-
-
 
 /*FOOTER.*/ 
 
-footer{
+  footer{
     background-color: rgb(54, 54, 54);
-    height: auto;
     height: 230px;
-}
+  }
 
-footer p{
+  footer p{
     color: white;
     margin:8px;
     margin-left: 25px;
-}
+  }
 
-footer h3{
+  footer h3{
     color:white;
     font-family:"Shrikhand", cursive;
     padding-left: 1.5rem;
@@ -42,57 +38,58 @@ footer h3{
     font-size: x-large;
     font-weight: 500;
     margin-top: 0%;
-}
+  }
 
-footer i{
+  footer i{
     font-size: medium;
-}
+  }
 
-.footer-un , .footer-deux{
+  .footer-un , .footer-deux{
     color: white;
     margin: 8px;
-}
+  }
 
-.footer-un i{
+  .footer-un i{
     margin-left: 15px;
     margin-right: 10px; 
-}
+  }
 
-.footer-deux i{
+  .footer-deux i{
     margin-left: 15px;
     margin-right: 3px
-}
+  }
 
-.footer-lien{
-  color:white;
-  padding-left: 24px;
-}
+  .footer-lien{
+    color:white;
+    padding-left: 24px;
+  }
+
 /*divider*/
 
-.divider{
+  .divider{
     width: 50px;
     height: 3px;
     background-color: #99E2D0;
     align-self: flex-start;
     margin-left: 30px;
     margin-bottom: 20px; 
-}
+  }
 
 /* Center the loader */
 
   #loader{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1000;
-    width: 80px;
-    height: 80px;
-    margin: -76px 0 0 -76px;
-    border: 16px solid #282828;
-    border-radius: 50%;
-    border-top: 16px solid #d418a5;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+   width: 80px;
+  height: 80px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #282828;
+  border-radius: 50%;
+  border-top: 16px solid #d418a5;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
   }
 
   #back{
@@ -105,7 +102,7 @@ footer i{
     z-index: 999;
   }
 
-/*logo-check*/
+  /*logo-check*/
 
   .check{
     height: 75px;
@@ -147,14 +144,14 @@ footer i{
   
 /*Keyframes*/
 
-  @keyframes loader {
+  @keyframes loader{
     100% {
       opacity: 0;
       z-index: -10;
     }
   } 
   
-  @keyframes jump {
+  @keyframes jump{
     0% {
       transform: translateY(0);
     }
@@ -167,12 +164,10 @@ footer i{
     100% {
       transform: translateY(0);
     }
-    
   }
 
-
   @keyframes apparition{
-    0%{
+  0%{
      opacity: 0;
      transform: translateY(20px)
     }
@@ -183,31 +178,26 @@ footer i{
 
   }
 
-  .entree {
+  .entree{
     animation: apparition 2s;
   }
  
-  .entree:nth-child(1) {
-        
+  .entree:nth-child(1){
     animation-delay: 600ms;
-}
-
-  .entree:nth-child(2) {
-      
-      animation-delay: 200ms;
   }
 
-  .entree:nth-child(3) {
-
-      animation-delay: 600ms;
+  .entree:nth-child(2){
+    animation-delay: 200ms;
   }
-  .entree:nth-child(4) {
-    
+
+  .entree:nth-child(3){
+    animation-delay: 600ms;
+  }
+  .entree:nth-child(4){
     animation-delay: 800ms;
   }
 
-
-  @keyframes show {
+  @keyframes show{
     0% {
         opacity: 0;
         font-size: 0;
