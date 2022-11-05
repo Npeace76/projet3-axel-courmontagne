@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    display: flex;
+    display: flex; 
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
@@ -76,6 +76,10 @@ header{
     justify-content: space-between;
     padding: 20px 25px 10px;
 }
+
+h2{
+    font-family:"Shrikhand", cursive; 
+  }
 
 .categories{
     display: flex;
